@@ -13,14 +13,14 @@ I use this for grading simple C++ assignments for students
 + Checks generated output against output_to_match
 + Generates an error file and diff file for each <em>.cpp</em> program
 
-### Cal.sh
+### General.sh
 ---
 <pre>
-./cal.sh 
+./general.sh 
 </pre>
 Lists all files in the current directory
 <pre>
-./cal.sh [C++ file]
+./general.sh [C++ file]
 </pre>
 
 + Compiles Program
