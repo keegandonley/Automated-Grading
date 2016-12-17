@@ -21,11 +21,11 @@ cat err
 echo "======================== Done ============================"
 echo " "
 echo "======================= Input 1 =========================="
-echo "This should be a leap year with 29 days in February, starting on a Tuesday "
+echo "This line should expalain what the expected output is for input set #1 "
 ./a.out < input1
 echo " "
 echo "======================= Input 2 =========================="
-echo "This should be a non-leap year with 28 days in February, starting on a Wednesday "
+echo "This line should explain what the expected output is for input set #2 "
 echo " "
 ./a.out < input2
 read -p "Press enter to open file" enter
