@@ -1,6 +1,12 @@
 # Automated Grading
 My automated grading system for C++ programs
+<br>
 I use this for grading simple C++ assignments for students
+<br>
+<br>
+The file grade.sh takes a directory full of .cpp files, an expected output file, and an optional input file. This one works great when the student's output it required to match a specific set of output, character-for-character. 
+<br>
+The file general.sh is useful for programs in which output cannot be predicted, such as when using random numbers or the output requirements aren't as strict. It runs using input from files called input1 and input2 in the directory. This means it's less automated but still allows for automatic compiling, running, and opening of files.
 
 ### Grade.sh
 ---
